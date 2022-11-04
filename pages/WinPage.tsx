@@ -263,17 +263,17 @@ import { AppContext } from "../Context";
 
                         <ModalWinTextContainer>
 
-                            <ModalWinText> Победа! </ModalWinText>
-                            <ModalWinText1> Победа! </ModalWinText1>
-                            <ModalWinText2> Победа! </ModalWinText2>
-                            <ModalWinText3> Победа! </ModalWinText3>
+                            <ModalWinText> Win! </ModalWinText>
+                            <ModalWinText1> Win! </ModalWinText1>
+                            <ModalWinText2> Win! </ModalWinText2>
+                            <ModalWinText3> Win! </ModalWinText3>
 
 
                         </ModalWinTextContainer>
 
-                        <AddText>  Молодец! Ты успешно справился с заданием! </AddText>
+                        <AddText>  Congratulations! You're doing well! </AddText>
 
-                        <Again onClick={again}> Заново </Again>
+                        <Again onClick={again}> Play again! </Again>
 
                     </WinModalWhite>
 

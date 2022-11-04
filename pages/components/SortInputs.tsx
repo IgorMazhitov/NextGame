@@ -53,14 +53,14 @@ const SortInputs = () => {
         onClick={(e) => sortIncr(e)}
         value="Incr"
       >
-        По возрастанию
+        Increasing
       </Button>
       <Button
         style={{ backgroundColor: styleDecr }}
         onClick={(e) => sortDecr(e)}
         value="Decr"
       >
-        По убыванию
+        Decreasing
       </Button>
     </ButtonsBox>
   );

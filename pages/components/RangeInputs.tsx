@@ -45,7 +45,7 @@ const RangeInputs = (props: any) => {
     <>
       <InputBox>
         <InputLabel htmlFor="Amount" style={{ color: "black" }}>
-          {props.type === "amount" ? "Кол-во Предметов" : "Значения"}
+          {props.type === "amount" ? "Item's amount" : "Item's values"}
         </InputLabel>
         <InputData id="amountList">
           <InputOption

@@ -242,7 +242,7 @@ function GamePage(props: any) {
       </CoinsField>
       <AnswerField>
         <ArrowText>
-          {sort === "Decr" ? "По убыванию" : "По возрастанию"}
+          {sort === "Decr" ? "Decreasing" : "Increasing"}
         </ArrowText>
         <AnswerArrow> {Arrow} </AnswerArrow>
         {answerField}

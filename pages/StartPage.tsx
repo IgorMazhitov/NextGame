@@ -74,7 +74,7 @@ function StartPage() {
           <RangeInputs type="amount" />
           <RangeInputs type="values" />
           <SortInputs />
-          <SubmitButton onClick={e => submit()}>Играть</SubmitButton>
+          <SubmitButton onClick={e => submit()}> Play </SubmitButton>
           
         </StartOptionsWhite>
       </StartOptionsBox>
