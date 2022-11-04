@@ -1,6 +1,14 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import React from "react";
+import "../styles/globals.css";
+import { AppState } from "../Context";
+import StartPage from "./StartPage";
+import GamePage from "./GamePage";
+import MainPage from "./MainPage";
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+export default function App() {
+  return (
+    <AppState>
+      <MainPage />
+    </AppState>
+  );
 }
